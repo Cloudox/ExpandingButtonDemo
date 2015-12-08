@@ -17,6 +17,8 @@
 		AD7905F41C15848D00436632 /* btn_quickoption_route.png in Resources */ = {isa = PBXBuildFile; fileRef = AD7905F31C15848D00436632 /* btn_quickoption_route.png */; };
 		AD7905F71C167BD000436632 /* submit_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = AD7905F51C167BD000436632 /* submit_pressed.png */; };
 		AD7905F81C167BD000436632 /* sumitmood.png in Resources */ = {isa = PBXBuildFile; fileRef = AD7905F61C167BD000436632 /* sumitmood.png */; };
+		AD7905FB1C16AFD400436632 /* ExpandingButtonExpanded.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD7905F91C16AFD400436632 /* ExpandingButtonExpanded.jpg */; };
+		AD7905FC1C16AFD400436632 /* ExpandingButtonNot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD7905FA1C16AFD400436632 /* ExpandingButtonNot.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		AD7905F31C15848D00436632 /* btn_quickoption_route.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_quickoption_route.png; sourceTree = "<group>"; };
 		AD7905F51C167BD000436632 /* submit_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submit_pressed.png; sourceTree = "<group>"; };
 		AD7905F61C167BD000436632 /* sumitmood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sumitmood.png; sourceTree = "<group>"; };
+		AD7905F91C16AFD400436632 /* ExpandingButtonExpanded.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ExpandingButtonExpanded.jpg; sourceTree = "<group>"; };
+		AD7905FA1C16AFD400436632 /* ExpandingButtonNot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ExpandingButtonNot.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				AD7905CC1C1582A600436632 /* ExpandingButtonDemo */,
 				AD7905E61C1582A600436632 /* ExpandingButtonDemoTests */,
 				AD7905CB1C1582A600436632 /* Products */,
+				AD7905F91C16AFD400436632 /* ExpandingButtonExpanded.jpg */,
+				AD7905FA1C16AFD400436632 /* ExpandingButtonNot.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -208,9 +214,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7905FC1C16AFD400436632 /* ExpandingButtonNot.jpg in Resources */,
 				AD7905D91C1582A600436632 /* Main.storyboard in Resources */,
 				AD7905F71C167BD000436632 /* submit_pressed.png in Resources */,
 				AD7905DE1C1582A600436632 /* LaunchScreen.xib in Resources */,
+				AD7905FB1C16AFD400436632 /* ExpandingButtonExpanded.jpg in Resources */,
 				AD7905DB1C1582A600436632 /* Images.xcassets in Resources */,
 				AD7905F41C15848D00436632 /* btn_quickoption_route.png in Resources */,
 				AD7905F81C167BD000436632 /* sumitmood.png in Resources */,
