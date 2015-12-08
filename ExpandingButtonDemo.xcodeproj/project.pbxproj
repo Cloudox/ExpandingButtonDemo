@@ -14,6 +14,9 @@
 		AD7905DB1C1582A600436632 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7905DA1C1582A600436632 /* Images.xcassets */; };
 		AD7905DE1C1582A600436632 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD7905DC1C1582A600436632 /* LaunchScreen.xib */; };
 		AD7905EA1C1582A600436632 /* ExpandingButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7905E91C1582A600436632 /* ExpandingButtonDemoTests.m */; };
+		AD7905F41C15848D00436632 /* btn_quickoption_route.png in Resources */ = {isa = PBXBuildFile; fileRef = AD7905F31C15848D00436632 /* btn_quickoption_route.png */; };
+		AD7905F71C167BD000436632 /* submit_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = AD7905F51C167BD000436632 /* submit_pressed.png */; };
+		AD7905F81C167BD000436632 /* sumitmood.png in Resources */ = {isa = PBXBuildFile; fileRef = AD7905F61C167BD000436632 /* sumitmood.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		AD7905E31C1582A600436632 /* ExpandingButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpandingButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7905E81C1582A600436632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD7905E91C1582A600436632 /* ExpandingButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpandingButtonDemoTests.m; sourceTree = "<group>"; };
+		AD7905F31C15848D00436632 /* btn_quickoption_route.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_quickoption_route.png; sourceTree = "<group>"; };
+		AD7905F51C167BD000436632 /* submit_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submit_pressed.png; sourceTree = "<group>"; };
+		AD7905F61C167BD000436632 /* sumitmood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sumitmood.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 			children = (
 				AD7905CE1C1582A600436632 /* Info.plist */,
 				AD7905CF1C1582A600436632 /* main.m */,
+				AD7905F31C15848D00436632 /* btn_quickoption_route.png */,
+				AD7905F51C167BD000436632 /* submit_pressed.png */,
+				AD7905F61C167BD000436632 /* sumitmood.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -200,8 +209,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD7905D91C1582A600436632 /* Main.storyboard in Resources */,
+				AD7905F71C167BD000436632 /* submit_pressed.png in Resources */,
 				AD7905DE1C1582A600436632 /* LaunchScreen.xib in Resources */,
 				AD7905DB1C1582A600436632 /* Images.xcassets in Resources */,
+				AD7905F41C15848D00436632 /* btn_quickoption_route.png in Resources */,
+				AD7905F81C167BD000436632 /* sumitmood.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +428,7 @@
 				AD7905EF1C1582A600436632 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD7905F01C1582A600436632 /* Build configuration list for PBXNativeTarget "ExpandingButtonDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				AD7905F21C1582A600436632 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
